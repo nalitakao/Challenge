@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92CD83C0-A2D9-680B-7AE9-AAE032FEE92C" name="T_SRS_CANDIDATO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>CDDEFE5D-9553-A2CA-7C2B-EFBBF34CFC8B</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_candidato" id="7EC10CE1-92C2-C250-B4E6-EF9D6A86FCA0">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>5690511E-88C7-5F98-636E-41B435B3AEE1</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_candidato" id="14067463-B9A0-851E-FD53-1701F9FEAAB2">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>92C74BF9-BB2B-9225-C048-FE825031AED5</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf_candidato" id="E081836C-5A44-4052-B313-76E88C152C5E">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>F87D9E4A-8FB5-A8D0-DAF6-EEEFBAF18589</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="257C1F11-5D41-DFB1-D58F-B24541809F6B">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>7578A734-08E8-642A-BE4C-320D44ADB6FD</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_telefone" id="BB1A75BF-D32A-4093-89A0-CB302E743FA2">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>3E19A8C8-A9AD-330C-F5CE-59C6CC0DFA3C</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="4DD8BC03-3658-70FE-46E5-DEB647DD7EEB">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>4163A037-A4DA-C405-6A5A-75C4F476D77C</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="A4321FE9-221B-45DF-9CAA-B37859D1B756">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>412B1213-9B6A-4AA5-630F-40EBBCAAD8D7</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8989F28B-8567-E3CC-B696-4DC87027A7F6" name="PK_SRS_CANDIDATO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>02F1749D-2F46-2760-801F-699AE0BA64AB</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EC10CE1-92C2-C250-B4E6-EF9D6A86FCA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

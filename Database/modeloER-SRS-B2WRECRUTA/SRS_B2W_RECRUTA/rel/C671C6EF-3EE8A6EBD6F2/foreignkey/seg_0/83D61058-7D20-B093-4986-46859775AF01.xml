@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83D61058-7D20-B093-4986-46859775AF01" containerWithKeyObject="904F5E33-8B72-425B-F953-268FB8B26D13" localFKIndex="4CAF0932-6414-02FC-0D49-CBCCC9984AE5" name="FK_SRS_CD_PROCESSO_SELETIVO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>E123AC7D-17B3-E810-E683-59A74FD8DBB8</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<referredTableLongName>T_SRS_PROCESSO_SELETIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7CD61FD-FE53-A2B5-3112-9FF65012D837</referredTableID>
+<keyObject>EE1A6137-3307-8E2C-80EE-501C4FB7717F</keyObject>
+<referredKeyID>EE1A6137-3307-8E2C-80EE-501C4FB7717F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_processo_seletivo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

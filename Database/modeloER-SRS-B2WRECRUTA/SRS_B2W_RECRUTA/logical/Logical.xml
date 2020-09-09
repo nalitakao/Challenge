@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CD02F61B-58B0-481E-95C1-34F73B15A1ED" mainViewID="938771B6-59EC-F579-D086-54CF14D1D7B3">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:26:03 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

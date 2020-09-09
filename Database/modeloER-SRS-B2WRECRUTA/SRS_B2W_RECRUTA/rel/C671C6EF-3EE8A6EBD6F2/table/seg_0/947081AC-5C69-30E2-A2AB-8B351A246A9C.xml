@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="947081AC-5C69-30E2-A2AB-8B351A246A9C" name="T_SRS_COMPETENCIA">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>4CBF19E6-8FA3-CD66-C2D4-DC9B24888348</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_competencia" id="439C0CB0-38DF-9DE6-2087-D95A6E8CE127">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>16333B52-A452-9C52-EE6C-E3D1FA4E6C78</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_curriculo" id="EA694839-0AD9-A988-1E79-A55092EF4C35">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>3532431A-0655-D2FB-7AFC-65BB4333F14B</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04AA013D-2A5E-6BB7-AEDF-D081BE9577F8" referredColumn="8A4331F1-4C04-FE36-5FF0-0E192EE19907"/>
+</associations>
+</Column>
+<Column name="ds_competencia" id="2B35D1B9-2547-F96E-832D-752BE2DEDBE5">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>37A1E02E-1233-D2A7-07C8-1FA4B569893A</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_certificado" id="0E19D706-9257-C886-188F-A461FFC94E6D">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>DF83898C-4F43-C897-56B5-8D012931F411</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SRS_CURRICULO_cd_candidato" id="68863F16-3C5A-DDB8-95E0-1D191DBA3B02">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:14:45 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04AA013D-2A5E-6BB7-AEDF-D081BE9577F8" referredColumn="61372CB3-C518-D41A-4C99-F85E474769AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9FCD3EB-1B58-93BD-C80B-FBE45CB860A6" name="PK_SRS_COMPETENCIA">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>CFE0C9AF-7CD7-D54D-D4D5-2B8BE922B072</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439C0CB0-38DF-9DE6-2087-D95A6E8CE127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F832DA74-AC01-A3C5-E4B7-6ECDD17F591F" name="FK_SRS_CURRICULO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:57 UTC</createdTime>
+<generatorID>3022396E-300D-45D7-B303-4B3F9D416373</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA694839-0AD9-A988-1E79-A55092EF4C35"/>
+<colUsage columnID="68863F16-3C5A-DDB8-95E0-1D191DBA3B02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

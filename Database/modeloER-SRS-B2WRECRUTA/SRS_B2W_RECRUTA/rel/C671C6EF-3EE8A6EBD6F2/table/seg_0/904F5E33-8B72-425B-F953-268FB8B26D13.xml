@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="904F5E33-8B72-425B-F953-268FB8B26D13" name="T_SRS_REQUISITO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>7F5A6A04-6908-40B3-1EFC-0B8D0E3226E1</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_requisito" id="B55E2FEB-13D2-DED1-BB3B-1E4E1C56395B">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>9B58FFAD-FE9F-DD1E-895B-B15C19252439</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_processo_seletivo" id="99ABD031-E884-0298-2ED1-F5278636EA0A">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>18960630-1AE8-E19C-4791-52CE27D11D4B</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83D61058-7D20-B093-4986-46859775AF01" referredColumn="167B7502-F64E-5FFD-8A36-A4849CC51045"/>
+</associations>
+</Column>
+<Column name="ds_requisito" id="73DA67B8-6B65-65E9-EA15-DD6C5E51C741">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>557A4059-6DB4-05F3-DB27-972A60091F89</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_peso_requisito" id="708A4AC3-8595-6351-D0C1-8497027D1B85">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>755319F9-CB2D-31DD-6D0D-0F1D7514231E</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91499F09-9721-C034-C187-895FDC3C47F3" name="PK_SRS_REQUISITO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>B7D7F67C-1E3E-5039-967F-59D0666B5554</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55E2FEB-13D2-DED1-BB3B-1E4E1C56395B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CAF0932-6414-02FC-0D49-CBCCC9984AE5" name="FK_SRS_CD_PROCESSO_SELETIVO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>E123AC7D-17B3-E810-E683-59A74FD8DBB8</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99ABD031-E884-0298-2ED1-F5278636EA0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

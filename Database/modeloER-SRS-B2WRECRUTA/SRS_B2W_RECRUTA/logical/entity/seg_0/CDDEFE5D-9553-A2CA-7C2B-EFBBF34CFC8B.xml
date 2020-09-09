@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDDEFE5D-9553-A2CA-7C2B-EFBBF34CFC8B" name="T_SRS_CANDIDATO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:47:54 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_candidato" id="5690511E-88C7-5F98-636E-41B435B3AEE1">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:48:22 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_candidato" id="92C74BF9-BB2B-9225-C048-FE825031AED5">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:48:38 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf_candidato" id="F87D9E4A-8FB5-A8D0-DAF6-EEEFBAF18589">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:49:39 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="7578A734-08E8-642A-BE4C-320D44ADB6FD">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:49:51 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_telefone" id="3E19A8C8-A9AD-330C-F5CE-59C6CC0DFA3C">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:23:35 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="4163A037-A4DA-C405-6A5A-75C4F476D77C">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:50:01 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="412B1213-9B6A-4AA5-630F-40EBBCAAD8D7">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:50:08 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02F1749D-2F46-2760-801F-699AE0BA64AB" name="T_SRS_CANDIDATO PK">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:48:34 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5690511E-88C7-5F98-636E-41B435B3AEE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

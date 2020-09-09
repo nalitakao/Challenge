@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="874F78A5-516D-4DEE-E1CB-72387590CAFE" name="T_SRS_CURRICULO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:51:48 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_curriculo" id="020425CD-6CFD-2DE2-A2B0-8D71F2348AA5">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:52:03 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_candidato" id="17D9FB34-191B-412F-99CA-4A420C50FAC5">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:52:58 UTC</createdTime>
+<generatorID>B6103271-8751-8FF2-7D32-58033411D326</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<referedAttribute>5690511E-88C7-5F98-636E-41B435B3AEE1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="EA5EB8CE-7692-52AC-28D5-B759BF1E0557">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:52:03 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_objetivo_profissional" id="833294BF-007C-5949-2D92-EB1C719F1851">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:52:03 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_experiencia" id="45A2F73A-EEE2-13AB-43FE-1734655318F2">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:52:03 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9EF74F3-38CD-B9E6-580A-0E09353EC21E" name="T_SRS_CURRICULO PK">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:52:09 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>020425CD-6CFD-2DE2-A2B0-8D71F2348AA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

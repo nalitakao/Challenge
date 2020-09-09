@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7CD61FD-FE53-A2B5-3112-9FF65012D837" name="T_SRS_PROCESSO_SELETIVO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>EC54B330-E9F4-CF82-062A-0E8B09B595CF</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_processo_seletivo" id="167B7502-F64E-5FFD-8A36-A4849CC51045">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>34390F15-5D02-A59C-5250-94A1914E1DB0</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_recrutador" id="CA36EF6A-8A43-1869-C583-5030807F235E">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>ED757FFD-A40E-35D7-A15C-8E77D61397DA</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD4081EC-3781-4837-1DAE-316342CC747D" referredColumn="142BDAFC-D01E-B900-1F91-23C85B4A7961"/>
+</associations>
+</Column>
+<Column name="nm_vaga" id="93702B19-2D04-3A05-51C4-80B8DD4586C5">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>A73BC22C-88EC-EB73-A0E1-AA6F03B5B2C7</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_area" id="E7F25627-8830-D7F3-E6D8-F9DCC154F738">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>7C034AA0-34E6-B843-0F6E-FD3D880CC057</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_status" id="1B410F54-8FB2-F971-27FD-D1532BD6FD14">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>D9ABEE4A-37D0-EE7D-299D-D0E15D2C33CB</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_max_candidatos" id="20255044-8513-A514-08C6-061376E96113">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>3CDC60D1-8844-E190-73A2-55ED0ADB6BC7</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE1A6137-3307-8E2C-80EE-501C4FB7717F" name="PK_SRS_PROCESSO_SELETIVO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>8282C3C1-0416-C0CC-F44A-514B2C947AD9</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="167B7502-F64E-5FFD-8A36-A4849CC51045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDB6CD04-3806-25C9-E56E-B396BADED41F" name="FK_SRS_RECRUTADOR">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>78FF641F-4DA7-8E66-EE3C-A7DA3F497ED0</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA36EF6A-8A43-1869-C583-5030807F235E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

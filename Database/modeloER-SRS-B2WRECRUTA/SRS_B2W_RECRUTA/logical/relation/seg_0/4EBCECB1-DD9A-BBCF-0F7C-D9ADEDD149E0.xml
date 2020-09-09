@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSSUIR" directorySegmentName="seg_0" id="4EBCECB1-DD9A-BBCF-0F7C-D9ADEDD149E0">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 22:57:43 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<sourcePk>8282C3C1-0416-C0CC-F44A-514B2C947AD9</sourcePk>
+<targetPk>C43D3D97-C860-1D34-0D16-CCD8616FB3DA</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC54B330-E9F4-CF82-062A-0E8B09B595CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C180332F-1E0D-6549-65A5-7601D9ECAA10</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

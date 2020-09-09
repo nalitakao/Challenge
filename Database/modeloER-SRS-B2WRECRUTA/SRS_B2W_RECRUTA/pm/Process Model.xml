@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="904EE065-DCC3-F532-FC4C-423DDCA72A14">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 21:26:05 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

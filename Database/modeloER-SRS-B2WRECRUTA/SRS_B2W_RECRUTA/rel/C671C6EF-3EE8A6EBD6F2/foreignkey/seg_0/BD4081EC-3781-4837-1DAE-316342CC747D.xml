@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD4081EC-3781-4837-1DAE-316342CC747D" containerWithKeyObject="E7CD61FD-FE53-A2B5-3112-9FF65012D837" localFKIndex="CDB6CD04-3806-25C9-E56E-B396BADED41F" name="FK_SRS_RECRUTADOR">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>78FF641F-4DA7-8E66-EE3C-A7DA3F497ED0</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<referredTableLongName>T_SRS_RECRUTADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3B3E7C4C-4079-DBED-EBCD-B6B95F3F08A8</referredTableID>
+<keyObject>0CA01F59-DB3A-1581-EA84-AC3AAABB8D8D</keyObject>
+<referredKeyID>0CA01F59-DB3A-1581-EA84-AC3AAABB8D8D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_recrutador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

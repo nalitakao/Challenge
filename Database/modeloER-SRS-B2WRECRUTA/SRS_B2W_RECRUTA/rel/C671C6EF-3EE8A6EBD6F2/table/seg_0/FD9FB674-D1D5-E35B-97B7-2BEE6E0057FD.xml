@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD9FB674-D1D5-E35B-97B7-2BEE6E0057FD" name="T_SRS_CURRICULO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>874F78A5-516D-4DEE-E1CB-72387590CAFE</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_candidato" id="61372CB3-C518-D41A-4C99-F85E474769AF">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>17D9FB34-191B-412F-99CA-4A420C50FAC5</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_T_SRS_CURRICULO_cd_candidato</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="575BC6F0-2E6D-5BA1-27C8-7904D1241530" referredColumn="7EC10CE1-92C2-C250-B4E6-EF9D6A86FCA0"/>
+</associations>
+</Column>
+<Column name="cd_curriculo" id="8A4331F1-4C04-FE36-5FF0-0E192EE19907">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>020425CD-6CFD-2DE2-A2B0-8D71F2348AA5</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_T_SRS_CURRICULO_cd_curriculo</notNullConstraintName>
+</Column>
+<Column name="ds_endereco" id="2E209BE7-22CE-5B78-5009-2B3D45225259">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>EA5EB8CE-7692-52AC-28D5-B759BF1E0557</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_T_SRS_CURRICULO_ds_endereco</notNullConstraintName>
+</Column>
+<Column name="ds_objetivo_profissional" id="D66FF321-2E6F-1CCC-93C6-D713790F10FA">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>833294BF-007C-5949-2D92-EB1C719F1851</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_T_SRS_CURRICULO_ds_objetivo_profissional</notNullConstraintName>
+</Column>
+<Column name="ds_experiencia" id="A39E2D9B-B1E8-7203-9EBA-FAED75161080">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>45A2F73A-EEE2-13AB-43FE-1734655318F2</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11786BB3-C481-844F-5F71-403BEF2FE1A5" name="PK_SRS_CURRICULO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:56 UTC</createdTime>
+<generatorID>F9EF74F3-38CD-B9E6-580A-0E09353EC21E</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4331F1-4C04-FE36-5FF0-0E192EE19907"/>
+<colUsage columnID="61372CB3-C518-D41A-4C99-F85E474769AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E46A5641-1A19-D5AC-ACA3-0A58047A77A8" name="FK_SRS_CANDIDATO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:57 UTC</createdTime>
+<generatorID>B6103271-8751-8FF2-7D32-58033411D326</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61372CB3-C518-D41A-4C99-F85E474769AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

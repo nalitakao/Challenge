@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04AA013D-2A5E-6BB7-AEDF-D081BE9577F8" containerWithKeyObject="947081AC-5C69-30E2-A2AB-8B351A246A9C" localFKIndex="F832DA74-AC01-A3C5-E4B7-6ECDD17F591F" name="FK_SRS_CURRICULO">
+<createdBy>Micaela</createdBy>
+<createdTime>2020-09-09 23:03:57 UTC</createdTime>
+<generatorID>3022396E-300D-45D7-B303-4B3F9D416373</generatorID>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<referredTableLongName>T_SRS_CURRICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD9FB674-D1D5-E35B-97B7-2BEE6E0057FD</referredTableID>
+<keyObject>11786BB3-C481-844F-5F71-403BEF2FE1A5</keyObject>
+<referredKeyID>11786BB3-C481-844F-5F71-403BEF2FE1A5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_curriculo,cd_candidato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
