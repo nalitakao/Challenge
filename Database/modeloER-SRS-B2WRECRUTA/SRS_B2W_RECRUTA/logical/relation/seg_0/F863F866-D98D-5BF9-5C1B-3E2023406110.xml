@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SRS_CANDIDATURA" directorySegmentName="seg_0" id="F863F866-D98D-5BF9-5C1B-3E2023406110">
+<createdBy>micaela.santos</createdBy>
+<createdTime>2020-09-11 00:11:54 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<sourcePk>0FAFABE3-77ED-27A5-B1CA-76705EA4363C</sourcePk>
+<targetPk>C43D3D97-C860-1D34-0D16-CCD8616FB3DA</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F243ACD-D6E0-32DD-4471-DF22BC4ADA4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C180332F-1E0D-6549-65A5-7601D9ECAA10</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

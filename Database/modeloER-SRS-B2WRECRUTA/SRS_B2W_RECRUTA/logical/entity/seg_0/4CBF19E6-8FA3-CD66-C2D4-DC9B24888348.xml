@@ -37,7 +37,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_competencia" id="37A1E02E-1233-D2A7-07C8-1FA4B569893A">
+<Attribute name="nm_competencia" id="37A1E02E-1233-D2A7-07C8-1FA4B569893A">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 22:46:27 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -60,7 +60,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CFE0C9AF-7CD7-D54D-D4D5-2B8BE922B072" name="T_SRS_COMPETENCIA PK">
+<identifier id="CFE0C9AF-7CD7-D54D-D4D5-2B8BE922B072" name="PK_SRS_COMPETENCIA">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 22:46:24 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -68,6 +68,7 @@
 <item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>16333B52-A452-9C52-EE6C-E3D1FA4E6C78</newElementsIDs>
 <usedAttributes>
 <attributeRef>16333B52-A452-9C52-EE6C-E3D1FA4E6C78</attributeRef>
 </usedAttributes>

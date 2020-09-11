@@ -57,7 +57,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_status" id="D9ABEE4A-37D0-EE7D-299D-D0E15D2C33CB">
+<Attribute name="ds_status_vaga" id="D9ABEE4A-37D0-EE7D-299D-D0E15D2C33CB">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 21:51:27 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -67,7 +67,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_max_candidatos" id="3CDC60D1-8844-E190-73A2-55ED0ADB6BC7">
+<Attribute name="nr_max_candidato" id="3CDC60D1-8844-E190-73A2-55ED0ADB6BC7">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 21:51:37 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -77,9 +77,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dt_inicio" id="571EC58E-94CC-EF09-EFA6-2660E5A06486">
+<createdBy>micaela.santos</createdBy>
+<createdTime>2020-09-11 00:28:08 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="A4456F0E-B095-5F29-473F-75D90761B9E1">
+<createdBy>micaela.santos</createdBy>
+<createdTime>2020-09-11 00:28:23 UTC</createdTime>
+<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
+<engineerTo>
+<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8282C3C1-0416-C0CC-F44A-514B2C947AD9" name="T_SRS_PROCESSO_SELETIVO PK">
+<identifier id="8282C3C1-0416-C0CC-F44A-514B2C947AD9" name="PK_SRS_PROCESSO_SELETIVO">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 21:51:02 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -87,6 +108,7 @@
 <item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>34390F15-5D02-A59C-5250-94A1914E1DB0</newElementsIDs>
 <usedAttributes>
 <attributeRef>34390F15-5D02-A59C-5250-94A1914E1DB0</attributeRef>
 </usedAttributes>

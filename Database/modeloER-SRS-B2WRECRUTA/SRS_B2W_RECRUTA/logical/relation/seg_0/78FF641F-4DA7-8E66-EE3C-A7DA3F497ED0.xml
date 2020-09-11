@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CRIAR" directorySegmentName="seg_0" id="78FF641F-4DA7-8E66-EE3C-A7DA3F497ED0">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SRS_RECRUTADOR" directorySegmentName="seg_0" id="78FF641F-4DA7-8E66-EE3C-A7DA3F497ED0">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 22:58:58 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -7,7 +7,6 @@
 <item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
 </engineerTo>
 <sourcePk>9DEBDF15-8E4E-A29A-9730-5DAB8F069076</sourcePk>
-<targetPk>8282C3C1-0416-C0CC-F44A-514B2C947AD9</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

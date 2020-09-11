@@ -118,7 +118,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9DEBDF15-8E4E-A29A-9730-5DAB8F069076" name="T_SRS_RECRUTADOR PK">
+<identifier id="9DEBDF15-8E4E-A29A-9730-5DAB8F069076" name="PK_SRS_RECRUTADOR">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 21:52:46 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -126,6 +126,7 @@
 <item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>373277A2-A0DC-D413-8E37-D2E544B82E89</newElementsIDs>
 <usedAttributes>
 <attributeRef>373277A2-A0DC-D413-8E37-D2E544B82E89</attributeRef>
 </usedAttributes>

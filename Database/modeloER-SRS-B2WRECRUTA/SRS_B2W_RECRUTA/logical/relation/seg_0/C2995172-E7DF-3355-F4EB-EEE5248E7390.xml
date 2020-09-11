@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SRS_PROCESSO_SELETIVO_REQ" directorySegmentName="seg_0" id="E123AC7D-17B3-E810-E683-59A74FD8DBB8">
-<createdBy>Micaela</createdBy>
-<createdTime>2020-09-09 22:59:45 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SRS_PROCESSO_SELETIVO" directorySegmentName="seg_0" id="C2995172-E7DF-3355-F4EB-EEE5248E7390">
+<createdBy>micaela.santos</createdBy>
+<createdTime>2020-09-10 14:07:26 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
 <engineerTo>
 <item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
 </engineerTo>
 <sourcePk>8282C3C1-0416-C0CC-F44A-514B2C947AD9</sourcePk>
-<targetPk>B7D7F67C-1E3E-5039-967F-59D0666B5554</targetPk>
+<targetPk>0FAFABE3-77ED-27A5-B1CA-76705EA4363C</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>EC54B330-E9F4-CF82-062A-0E8B09B595CF</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>7F5A6A04-6908-40B3-1EFC-0B8D0E3226E1</targetEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5F243ACD-D6E0-32DD-4471-DF22BC4ADA4B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

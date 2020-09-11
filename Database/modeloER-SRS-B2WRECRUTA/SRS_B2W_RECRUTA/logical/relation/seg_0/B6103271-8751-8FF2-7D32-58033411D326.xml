@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="B6103271-8751-8FF2-7D32-58033411D326">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SRS_CANDIDATO" directorySegmentName="seg_0" id="B6103271-8751-8FF2-7D32-58033411D326">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 22:52:58 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>

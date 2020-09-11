@@ -37,29 +37,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_endereco" id="EA5EB8CE-7692-52AC-28D5-B759BF1E0557">
-<createdBy>Micaela</createdBy>
-<createdTime>2020-09-09 22:52:03 UTC</createdTime>
-<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
-<engineerTo>
-<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_objetivo_profissional" id="833294BF-007C-5949-2D92-EB1C719F1851">
-<createdBy>Micaela</createdBy>
-<createdTime>2020-09-09 22:52:03 UTC</createdTime>
-<ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
-<engineerTo>
-<item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_experiencia" id="45A2F73A-EEE2-13AB-43FE-1734655318F2">
-<createdBy>Micaela</createdBy>
-<createdTime>2020-09-09 22:52:03 UTC</createdTime>
+<Attribute name="ds_doc_curriculo" id="11B0BD06-0678-3542-4D50-BBEDC6376498">
+<createdBy>micaela.santos</createdBy>
+<createdTime>2020-09-10 23:48:34 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
 <engineerTo>
 <item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
@@ -70,7 +50,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F9EF74F3-38CD-B9E6-580A-0E09353EC21E" name="T_SRS_CURRICULO PK">
+<identifier id="F9EF74F3-38CD-B9E6-580A-0E09353EC21E" name="PK_SRS_CURRICULO">
 <createdBy>Micaela</createdBy>
 <createdTime>2020-09-09 22:52:09 UTC</createdTime>
 <ownerDesignName>SRS_B2W_RECRUTA</ownerDesignName>
@@ -78,6 +58,7 @@
 <item key="C671C6EF-527B-21F9-7EA6-3EE8A6EBD6F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>020425CD-6CFD-2DE2-A2B0-8D71F2348AA5</newElementsIDs>
 <usedAttributes>
 <attributeRef>020425CD-6CFD-2DE2-A2B0-8D71F2348AA5</attributeRef>
 </usedAttributes>
