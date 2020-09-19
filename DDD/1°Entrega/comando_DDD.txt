@@ -1,0 +1,39 @@
+CREATE TABLE t_srs_recrutador (
+    cd_recrutador INTEGER NOT NULL,
+    nm_recrutador VARCHAR(50) NOT NULL,
+    dt_nascimento DATE,
+    nr_cpf_recrutador VARCHAR(11) NOT NULL,
+    nm_empresa VARCHAR(50) NOT NULL,
+    nr_cnpj_empresa VARCHAR(14) NOT NULL,
+    nm_departamento VARCHAR(50) NOT NULL,
+    ds_cargo VARCHAR(50) NOT NULL,
+    ds_email VARCHAR(50) NOT NULL,
+    ds_senha VARCHAR(100) NOT NULL);
+
+ALTER TABLE t_srs_recrutador ADD CONSTRAINT pk_srs_recrutador PRIMARY KEY ( cd_recrutador );
+
+CREATE TABLE t_srs_processo_seletivo (
+    cd_processo_seletivo  Integer 
+
+     NOT NULL,
+    cd_recrutador         Integer 
+
+     NOT NULL,
+    nm_vaga               VARCHAR(50) 
+
+     NOT NULL,
+    ds_area               VARCHAR(100) 
+
+     NOT NULL,
+    ds_status             VARCHAR(50) 
+ 
+     NOT NULL,
+    nr_max_candidatos     INTEGER 
+     NOT NULL
+);
+
+ALTER TABLE t_srs_processo_seletivo ADD CONSTRAINT pk_srs_processo_seletivo PRIMARY KEY ( cd_processo_seletivo );
+
+ALTER TABLE t_srs_processo_seletivo
+    ADD CONSTRAINT fk_srs_recrutador FOREIGN KEY ( cd_recrutador )
+        REFERENCES t_srs_recrutador ( cd_recrutador );
